@@ -1,0 +1,45 @@
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\DataLayer.dll
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\DataLayer.pdb
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\krsto\Downloads\siprojekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\krsto\Downloads\siprojekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\krsto\Downloads\siprojekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\DataLayer.dll
+C:\Users\krsto\Downloads\siprojekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\DataLayer.pdb
+C:\Users\krsto\Downloads\siprojekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\krsto\Downloads\siprojekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\krsto\Downloads\siprojekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\krsto\Downloads\siprojekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\krsto\Downloads\siprojekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\Dell 5530\Desktop\projekatSITBOK\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Dell 5530\Desktop\projekatSITBOK\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Dell 5530\Desktop\projekatSITBOK\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\DataLayer.dll
+C:\Users\Dell 5530\Desktop\projekatSITBOK\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\DataLayer.pdb
+C:\Users\Dell 5530\Desktop\projekatSITBOK\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Dell 5530\Desktop\projekatSITBOK\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Dell 5530\Desktop\projekatSITBOK\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\Dell 5530\Desktop\projekatSITBOK\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\Dell 5530\Desktop\projekatSITBOK\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Desktop\projekatTBOK\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Desktop\projekatTBOK\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Desktop\projekatTBOK\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\DataLayer.dll
+C:\Desktop\projekatTBOK\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\DataLayer.pdb
+C:\Desktop\projekatTBOK\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Desktop\projekatTBOK\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Desktop\projekatTBOK\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Desktop\projekatTBOK\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Desktop\projekatTBOK\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\Dell\Downloads\projekat2\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Dell\Downloads\projekat2\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Dell\Downloads\projekat2\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\DataLayer.dll
+C:\Users\Dell\Downloads\projekat2\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\bin\Debug\DataLayer.pdb
+C:\Users\Dell\Downloads\projekat2\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Dell\Downloads\projekat2\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Downloads\projekat2\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\Dell\Downloads\projekat2\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\Dell\Downloads\projekat2\si2023-projekat-tim-thebooksofknjige\HikingPartner\BusinessLayer\obj\Debug\BusinessLayer.pdb

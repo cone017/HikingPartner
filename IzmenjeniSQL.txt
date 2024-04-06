@@ -1,0 +1,85 @@
+-----TABELA KORISNIK
+
+CREATE TABLE [dbo].[Korisnik] (
+    [KorisnikID]    INT           IDENTITY (1, 1) NOT NULL,
+    [ImePrezime]    NVARCHAR (40) NOT NULL,
+    [MejlAdresa]    NVARCHAR (40) NOT NULL,
+    [Sifra]         NVARCHAR (20) NOT NULL,
+    [Telefon]       NVARCHAR (15) NOT NULL,
+    [Pol]           NVARCHAR (6)  NULL,
+    [Interesovanje] NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([MejlAdresa] ASC)
+);
+
+-----PODACI TABELA KORISNIK
+
+SET IDENTITY_INSERT [dbo].[Korisnik] ON
+INSERT INTO [dbo].[Korisnik] ([KorisnikID], [ImePrezime], [MejlAdresa], [Sifra], [Telefon], [Pol], [Interesovanje]) VALUES (1, N'Nemanja Mijajlovic', N'nemanjamijajlovic@gmail.com', N'123456', N'0621592149', N'Muski', N'Trcanje')
+SET IDENTITY_INSERT [dbo].[Korisnik] OFF
+
+-----TABELA TIP AKTIVNOST
+
+CREATE TABLE [dbo].[TipAktivnosti] (
+    [TipId] INT            IDENTITY (1, 1) NOT NULL,
+    [Naziv] NVARCHAR (100) NOT NULL,
+    [Opis]  NVARCHAR (100) NOT NULL,
+    PRIMARY KEY CLUSTERED ([TipId] ASC)
+);
+
+
+-----PODACI TABELA TIP AKTIVNOSTI
+
+SET IDENTITY_INSERT [dbo].[TipAktivnosti] ON
+INSERT INTO [dbo].[TipAktivnosti] ([TipId], [Naziv], [Opis]) VALUES (1, N'Trcanje', N'Trcanje u prirodi, trcanje u zatvorenom')
+INSERT INTO [dbo].[TipAktivnosti] ([TipId], [Naziv], [Opis]) VALUES (2, N'Planinarenje', N'Planinarenje po planinama Srbije')
+INSERT INTO [dbo].[TipAktivnosti] ([TipId], [Naziv], [Opis]) VALUES (3, N'Voznja bicikle', N'Voznja bicikle po planinama, parkovima i oko jezera')
+SET IDENTITY_INSERT [dbo].[TipAktivnosti] OFF
+
+
+-----TABELA AKTIVNOSTI
+
+CREATE TABLE [dbo].[Aktivnost] (
+    [AktivnostID]     INT            NOT NULL,
+    [NazivAktivnosti] NVARCHAR (100) NOT NULL,
+    [DatumPocetka]    DATE           NOT NULL,
+    [Trajanje]        INT            NOT NULL,
+    [Opis]            NVARCHAR (100) NULL,
+    [Lokacija]        NVARCHAR (100) NOT NULL,
+    [TipAktivnostiID] INT            NOT NULL,
+    [MejlAdresa]      NVARCHAR (40)  NOT NULL,
+    PRIMARY KEY CLUSTERED ([AktivnostID] ASC),
+    FOREIGN KEY ([TipAktivnostiID]) REFERENCES [dbo].[TipAktivnosti] ([TipId]),
+    FOREIGN KEY ([MejlAdresa]) REFERENCES [dbo].[Korisnik] ([MejlAdresa])
+);
+
+-----PODACI TABELA AKTIVNOST
+
+INSERT INTO [dbo].[Aktivnost] ([AktivnostID], [NazivAktivnosti], [DatumPocetka], [Trajanje], [Opis], [Lokacija], [TipAktivnostiID], [MejlAdresa]) VALUES (1, N'Ludilo', N'2024-01-30', 240, N'Planinarenje na kablaru', N'Kablar', 2, N'nemanjamijajlovic@gmail.com')
+INSERT INTO [dbo].[Aktivnost] ([AktivnostID], [NazivAktivnosti], [DatumPocetka], [Trajanje], [Opis], [Lokacija], [TipAktivnostiID], [MejlAdresa]) VALUES (2, N'Biciklica', N'2024-01-28', 120, N'Po bedemu', N'Oko Morave', 3, N'nemanjamijajlovic@gmail.com')
+INSERT INTO [dbo].[Aktivnost] ([AktivnostID], [NazivAktivnosti], [DatumPocetka], [Trajanje], [Opis], [Lokacija], [TipAktivnostiID], [MejlAdresa]) VALUES (3, N'Sprintevi', N'2024-01-25', 150, N'Mnogo brzo', N'Atltetska staza cacak', 1, N'nemanjamijajlovic@gmail.com')
+INSERT INTO [dbo].[Aktivnost] ([AktivnostID], [NazivAktivnosti], [DatumPocetka], [Trajanje], [Opis], [Lokacija], [TipAktivnostiID], [MejlAdresa]) VALUES (7, N'cetiri', N'2024-01-23', 2, N'cetiri', N'cetiri', 2, N'nemanjamijajlovic@gmail.com')
+INSERT INTO [dbo].[Aktivnost] ([AktivnostID], [NazivAktivnosti], [DatumPocetka], [Trajanje], [Opis], [Lokacija], [TipAktivnostiID], [MejlAdresa]) VALUES (8, N'pet', N'2024-01-31', 4, N'pet', N'pet', 2, N'nemanjamijajlovic@gmail.com')
+INSERT INTO [dbo].[Aktivnost] ([AktivnostID], [NazivAktivnosti], [DatumPocetka], [Trajanje], [Opis], [Lokacija], [TipAktivnostiID], [MejlAdresa]) VALUES (9, N'setnja', N'2024-01-20', 2, N'grupna setnja', N'Jelica', 2, N'nemanjamijajlovic@gmail.com')
+
+
+-----TABELA CLANOVIAKTIVNOSTI
+
+CREATE TABLE [dbo].[ClanoviAktivnosti] (
+    [ClanoviAktivnostiId] INT            IDENTITY (1, 1) NOT NULL,
+    [MejlAdresa]          NVARCHAR (40)  NOT NULL,
+    [AktivnostId]         INT            NOT NULL,
+    [Naziv]               NVARCHAR (50)  NOT NULL,
+    [PridruzeniClan]      NVARCHAR (200) NOT NULL,
+    PRIMARY KEY CLUSTERED ([ClanoviAktivnostiId] ASC),
+    FOREIGN KEY ([MejlAdresa]) REFERENCES [dbo].[Korisnik] ([MejlAdresa]),
+    FOREIGN KEY ([AktivnostId]) REFERENCES [dbo].[Aktivnost] ([AktivnostID])
+);
+
+----PODACI CLANOVIAKTIVNOSTI
+
+SET IDENTITY_INSERT [dbo].[ClanoviAktivnosti] ON
+INSERT INTO [dbo].[ClanoviAktivnosti] ([ClanoviAktivnostiId], [MejlAdresa], [AktivnostId], [Naziv], [PridruzeniClan]) VALUES (1, N'nemanjamijajlovic@gmail.com', 2, N'Biciklica', N'Nemanja Mijajlovic')
+INSERT INTO [dbo].[ClanoviAktivnosti] ([ClanoviAktivnostiId], [MejlAdresa], [AktivnostId], [Naziv], [PridruzeniClan]) VALUES (6, N'nemanjamijajlovic@gmail.com', 7, N'cetiri', N'Nemanja Mijajlovic')
+INSERT INTO [dbo].[ClanoviAktivnosti] ([ClanoviAktivnostiId], [MejlAdresa], [AktivnostId], [Naziv], [PridruzeniClan]) VALUES (7, N'nemanjamijajlovic@gmail.com', 8, N'pet', N'Nemanja Mijajlovic')
+INSERT INTO [dbo].[ClanoviAktivnosti] ([ClanoviAktivnostiId], [MejlAdresa], [AktivnostId], [Naziv], [PridruzeniClan]) VALUES (8, N'nemanjamijajlovic@gmail.com', 9, N'setnja', N'Nemanja Mijajlovic')
+SET IDENTITY_INSERT [dbo].[ClanoviAktivnosti] OFF

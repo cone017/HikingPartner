@@ -1,0 +1,13 @@
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\DataLayerTests\bin\Debug\DataLayerTests.dll
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\DataLayerTests\bin\Debug\DataLayerTests.pdb
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\DataLayerTests\bin\Debug\BusinessLayer.dll
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\DataLayerTests\bin\Debug\DataLayer.dll
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\DataLayerTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\DataLayerTests\bin\Debug\BusinessLayer.pdb
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\DataLayerTests\bin\Debug\DataLayer.pdb
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\DataLayerTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\DataLayerTests\obj\Debug\DataLayerTests.csproj.AssemblyReference.cache
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\DataLayerTests\obj\Debug\DataLayerTests.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\DataLayerTests\obj\Debug\DataLayerTests.csproj.CopyComplete
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\DataLayerTests\obj\Debug\DataLayerTests.dll
+C:\Users\Dell\Downloads\projekat\si2023-projekat-tim-thebooksofknjige\HikingPartner\DataLayerTests\obj\Debug\DataLayerTests.pdb
